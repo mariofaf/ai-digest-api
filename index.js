@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.get('/api/data', (req, res) => {
   try {
     // Simple sample data
-    const sampleData = {
+/*    const sampleData = {
       records: [
         {
           fields: {
@@ -47,7 +47,7 @@ app.get('/api/data', (req, res) => {
     console.error('Error in /api/data:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
-});
+});*/
 
 // Error handler for the whole app
 app.use((err, req, res, next) => {
