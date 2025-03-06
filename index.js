@@ -77,10 +77,10 @@ app.get('/api/data', async (req, res) => {
       ]
     };
     
-    res.json(sampleData);
+    res.json(sampleData); */
   }
 });
-*/
+
 // Server configuration
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
